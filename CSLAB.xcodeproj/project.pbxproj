@@ -13,6 +13,8 @@
 		1430E091161CA9C9003128A8 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1430E08F161CA9C9003128A8 /* Credits.rtf */; };
 		1430E094161CA9C9003128A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430E093161CA9C9003128A8 /* AppDelegate.m */; };
 		1430E097161CA9C9003128A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1430E095161CA9C9003128A8 /* MainMenu.xib */; };
+		1430E0A5161CC107003128A8 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430E0A4161CC107003128A8 /* MyView.m */; };
+		1430E0A8161CC204003128A8 /* MyButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1430E0A7161CC204003128A8 /* MyButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		1430E092161CA9C9003128A8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1430E093161CA9C9003128A8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1430E096161CA9C9003128A8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1430E0A3161CC107003128A8 /* MyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		1430E0A4161CC107003128A8 /* MyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
+		1430E0A6161CC204003128A8 /* MyButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyButton.h; sourceTree = "<group>"; };
+		1430E0A7161CC204003128A8 /* MyButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +92,10 @@
 				1430E093161CA9C9003128A8 /* AppDelegate.m */,
 				1430E095161CA9C9003128A8 /* MainMenu.xib */,
 				1430E087161CA9C9003128A8 /* Supporting Files */,
+				1430E0A3161CC107003128A8 /* MyView.h */,
+				1430E0A4161CC107003128A8 /* MyView.m */,
+				1430E0A6161CC204003128A8 /* MyButton.h */,
+				1430E0A7161CC204003128A8 /* MyButton.m */,
 			);
 			path = CSLAB;
 			sourceTree = "<group>";
@@ -168,6 +178,8 @@
 			files = (
 				1430E08D161CA9C9003128A8 /* main.m in Sources */,
 				1430E094161CA9C9003128A8 /* AppDelegate.m in Sources */,
+				1430E0A5161CC107003128A8 /* MyView.m in Sources */,
+				1430E0A8161CC204003128A8 /* MyButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
